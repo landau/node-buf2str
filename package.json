@@ -1,0 +1,30 @@
+{
+  "name": "buf2str",
+  "version": "0.0.0",
+  "description": "Convert a buffer (or buffer accepted value) to a string.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/landau/node-buf2str.git"
+  },
+  "keywords": [
+    "buffer",
+    "string",
+    "convert"
+  ],
+  "author": "Trevor Landau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/landau/node-buf2str/issues"
+  },
+  "homepage": "https://github.com/landau/node-buf2str",
+  "devDependencies": {
+    "is-predicate": "~0.2.0",
+    "jshint-stylish": "~0.1.5",
+    "mocha": "~1.17.1",
+    "jshint": "~2.4.4"
+  }
+}
