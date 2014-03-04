@@ -4,6 +4,7 @@
   "description": "Convert a buffer (or buffer accepted value) to a string.",
   "main": "index.js",
   "scripts": {
+    "pretest": "jshint --reporter node_modules/jshint-stylish/stylish.js index.js test.js",
     "test": "mocha test.js"
   },
   "repository": {
