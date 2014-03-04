@@ -9,11 +9,14 @@ Convert a buffer (or buffer accepted value) to a string.
 
 `npm i -S buf2str`
 
-## usage
+## Usage
 
 ```javascript
 var buf2str = require('buf2str');
 
-buf2str('foobar'); // foobar
-buf2str(new Buffer('foobar')); // foobar
+var base64 = 'VGhlIGxhenkgZm94IHJhbiBkb3duIHNvbWV0aGluZy4uLkkgY2FuJ3QgcmVtZW1iZXIu';
+var expected = 'The lazy fox ran down something...I can\'t remember.';
+
+// Default base64
+buf2str(base64) === expected; // true
 ```
